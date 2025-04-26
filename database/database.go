@@ -6,4 +6,4 @@ type UserDetails struct {
 	Email  string `json:"email"`
 }
 
-var SampleDatabase map[string]UserDetails
+var SampleDatabase = make(map[string]UserDetails)
