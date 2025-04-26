@@ -5,3 +5,5 @@ type UserDetails struct {
 	Gender string `json:"gender"`
 	Email  string `json:"email"`
 }
+
+var SampleDatabase map[string]UserDetails
